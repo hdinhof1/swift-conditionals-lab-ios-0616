@@ -115,8 +115,8 @@ print(isForceWith("Jon Snow"))
 */
 func bankAccountOperations(myAccount: Int, otherAccount: Int) {
     if otherAccount - 10 > 0 {
-        myAccount += 10
-        otherAccount -= 10
+        myAccount + 10
+        otherAccount - 10
     }
 }
 
